@@ -11,76 +11,42 @@ The variables are listed below. For more detail on the collection and manipulati
 
 
 
-| Variable Name               | Variable                                                                           | Explanation                                                              |
-|-----------------------------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| activity                    | Activity performed by the subjects and measured by the gyroscope and accelerometer | walking, walking.upstairs, walking.downstairs, sitting, standing, laying |
-| subject                     | Subjects that performed activites pulled from a group of 30 volunteers             | 1-30                                                                     |
-|                             |   within an age bracket of 19-48 years                                             |                                                                          |
-| tbodyacc.mean...xyz         | Mean of the means of the variable 'tbodyacc' from all subjects and                 | Variable is normalized and bounded within [-1,1]                         |
-|                             |   activities                                                                       |                                                                          |
-| tbodyacc.std...xyz          | Mean of the standard deviations of the variable 'tbodyacc' from all                | Variable is normalized and bounded within [-1,1]                         |
-|                             |   subjects and activities                                                          |                                                                          |
-| tgravityacc.mean...xyz      | Mean of the means of the variable 'tgravityacc' from all subjects and              | Variable is normalized and bounded within [-1,1]                         |
-|                             |   activities                                                                       |                                                                          |
-| tgravityacc.std...xyz       | Mean of the standard deviations of the variable 'tgravityacc' from all             | Variable is normalized and bounded within [-1,1]                         |
-|                             |   subjects and activities                                                          |                                                                          |
-| tbodyaccjerk.mean...xyz     | Mean of the means of the variable 'tbodyaccjerk' from all subjects and             | Variable is normalized and bounded within [-1,1]                         |
-|                             |   activities                                                                       |                                                                          |
-| tbodyaccjerk.std...xyz      | Mean of the standard deviations of the variable 'tbodyaccjerk' from all            | Variable is normalized and bounded within [-1,1]                         |
-|                             |   subjects and activities                                                          |                                                                          |
-| tbodygyro.mean...xyz        | Mean of the means of the variable 'tbodygyro' from all subjects and                | Variable is normalized and bounded within [-1,1]                         |
-|                             |   activities                                                                       |                                                                          |
-| tbodygyro.std...xyz         | Mean of the standard deviations of the variable 'tbodygyro' from all               | Variable is normalized and bounded within [-1,1]                         |
-|                             |   subjects and activities                                                          |                                                                          |
-| tbodygyrojerk.mean...xyz    | Mean of the means of the variable 'tbodygyrojerk' from all subjects and            | Variable is normalized and bounded within [-1,1]                         |
-|                             |   activities                                                                       |                                                                          |
-| tbodygyrojerk.std...xyz     | Mean of the standard deviations of the variable 'tbodygyrojerk' from all           | Variable is normalized and bounded within [-1,1]                         |
-|                             |   subjects and activities                                                          |                                                                          |
-| tbodyaccmag.mean..          | Mean of the means of the variable 'tbodyaccmag' from all subjects and              | Variable is normalized and bounded within [-1,1]                         |
-|                             |   activities                                                                       |                                                                          |
-| tbodyaccmag.std..           | Mean of the standard deviations of the variable 'tbodyaccmag' from all             | Variable is normalized and bounded within [-1,1]                         |
-|                             |   subjects and activities                                                          |                                                                          |
-| tgravityaccmag.mean..       | Mean of the means of the variable 'tgravityaccmag' from all subjects and           | Variable is normalized and bounded within [-1,1]                         |
-|                             |   activities                                                                       |                                                                          |
-| tgravityaccmag.std..        | Mean of the standard deviations of the variable 'tgravityaccmag' from all          | Variable is normalized and bounded within [-1,1]                         |
-|                             |   subjects and activities                                                          |                                                                          |
-| tbodyaccjerkmag.mean..      | Mean of the means of the variable 'tbodyaccjerkmag' from all subjects and          | Variable is normalized and bounded within [-1,1]                         |
-|                             |   activities                                                                       |                                                                          |
-| tbodyaccjerkmag.std..       | Mean of the standard deviations of the variable 'tbodyaccjerkmag' from             | Variable is normalized and bounded within [-1,1]                         |
-|                             |   all subjects and activities                                                      |                                                                          |
-| tbodygyromag.mean..         | Mean of the means of the variable 'tbodygyromag' from all subjects and             | Variable is normalized and bounded within [-1,1]                         |
-|                             |   activities                                                                       |                                                                          |
-| tbodygyromag.std..          | Mean of the standard deviations of the variable 'tbodygyromag' from all            | Variable is normalized and bounded within [-1,1]                         |
-|                             |   subjects and activities                                                          |                                                                          |
-| tbodygyrojerkmag.mean..     | Mean of the means of the variable 'tbodygyrojerkmag' from all subjects             | Variable is normalized and bounded within [-1,1]                         |
-|                             |   and activities                                                                   |                                                                          |
-| tbodygyrojerkmag.std..      | Mean of the standard deviations of the variable 'tbodygyrojerkmag' from            | Variable is normalized and bounded within [-1,1]                         |
-|                             |   all subjects and activities                                                      |                                                                          |
-| fbodyacc.mean...xyz         | Mean of the means of the variable 'fbodyacc' from all subjects and                 | Variable is normalized and bounded within [-1,1]                         |
-|                             |   activities                                                                       |                                                                          |
-| fbodyacc.std...xyz          | Mean of the standard deviations of the variable 'fbodyacc' from all                | Variable is normalized and bounded within [-1,1]                         |
-|                             |   subjects and activities                                                          |                                                                          |
-| fbodyaccjerk.mean...xyz     | Mean of the means of the variable 'fbodyaccjerk' from all subjects and             | Variable is normalized and bounded within [-1,1]                         |
-|                             |   activities                                                                       |                                                                          |
-| fbodyaccjerk.std...xyz      | Mean of the standard deviations of the variable 'fbodyaccjerk' from all            | Variable is normalized and bounded within [-1,1]                         |
-|                             |   subjects and activities                                                          |                                                                          |
-| fbodygyro.mean...xyz        | Mean of the means of the variable 'fbodygyro' from all subjects and                | Variable is normalized and bounded within [-1,1]                         |
-|                             |   activities                                                                       |                                                                          |
-| fbodygyro.std...xyz         | Mean of the standard deviations of the variable 'fbodygyro' from all               | Variable is normalized and bounded within [-1,1]                         |
-|                             |   subjects and activities                                                          |                                                                          |
-| fbodyaccmag.mean..          | Mean of the means of the variable 'fbodyaccmag' from all subjects and              | Variable is normalized and bounded within [-1,1]                         |
-|                             |   activities                                                                       |                                                                          |
-| fbodyaccmag.std..           | Mean of the standard deviations of the variable 'fbodyaccmag' from all             | Variable is normalized and bounded within [-1,1]                         |
-|                             |   subjects and activities                                                          |                                                                          |
-| fbodybodyaccjerkmag.mean..  | Mean of the means of the variable 'fbodybodyaccjerkmag' from all subjects          | Variable is normalized and bounded within [-1,1]                         |
-|                             |   and activities                                                                   |                                                                          |
-| fbodybodyaccjerkmag.std..   | Mean of the standard deviations of the variable 'fbodybodyaccjerkmag'              | Variable is normalized and bounded within [-1,1]                         |
-|                             |   from all subjects and activities                                                 |                                                                          |
-| fbodybodygyromag.mean..     | Mean of the means of the variable 'fbodybodygyromag' from all subjects             | Variable is normalized and bounded within [-1,1]                         |
-|                             |   and activities                                                                   |                                                                          |
-| fbodybodygyromag.std..      | Mean of the standard deviations of the variable 'fbodybodygyromag' from            | Variable is normalized and bounded within [-1,1]                         |
-|                             |   all subjects and activities                                                      |                                                                          |
-| fbodybodygyrojerkmag.mean.. | Mean of the means of the variable 'fbodybodygyrojerkmag' from all                  | Variable is normalized and bounded within [-1,1]                         |
-|                             |   subjects and activities                                                          |                                                                          |
-| fbodybodygyrojerkmag.std..  | Mean of the standard deviations of the variable 'fbodybodygyrojerkmag'             | Variable is normalized and bounded within [-1,1]                         |
-|                             |   from all subjects and activities                                                 |                                                                          |
+
+| Variable Name               | Variable                                                                           | Explanation                                      |
+|-----------------------------|------------------------------------------------------------------------------------|--------------------------------------------------|
+| activity                    | Activity performed by the subjects and measured by the gyroscope and accelerometer | walking, walking.upstairs,  walking.downstairs, sitting, standing, laying                     |
+| subject                     | A group of 30 volunteers within an age bracket of 19-48 years                      | 1-30                                             |
+| tbodyacc.mean...xyz         | Mean of the means of the variable 'tbodyacc'                                       | Variable is normalized and bounded within [-1,1] |
+| tbodyacc.std...xyz          | Mean of the standard deviations of the variable 'tbodyacc'                         | Variable is normalized and bounded within [-1,1] |
+| tgravityacc.mean...xyz      | Mean of the means of the variable 'tgravityacc'                                    | Variable is normalized and bounded within [-1,1] |
+| tgravityacc.std...xyz       | Mean of the standard deviations of the variable 'tgravityacc'                      | Variable is normalized and bounded within [-1,1] |
+| tbodyaccjerk.mean...xyz     | Mean of the means of the variable 'tbodyaccjerk'                                   | Variable is normalized and bounded within [-1,1] |
+| tbodyaccjerk.std...xyz      | Mean of the standard deviations of the variable 'tbodyaccjerk'                     | Variable is normalized and bounded within [-1,1] |
+| tbodygyro.mean...xyz        | Mean of the means of the variable 'tbodygyro'                                      | Variable is normalized and bounded within [-1,1] |
+| tbodygyro.std...xyz         | Mean of the standard deviations of the variable 'tbodygyro'                        | Variable is normalized and bounded within [-1,1] |
+| tbodygyrojerk.mean...xyz    | Mean of the means of the variable 'tbodygyrojerk'                                  | Variable is normalized and bounded within [-1,1] |
+| tbodygyrojerk.std...xyz     | Mean of the standard deviations of the variable 'tbodygyrojerk'                    | Variable is normalized and bounded within [-1,1] |
+| tbodyaccmag.mean..          | Mean of the means of the variable 'tbodyaccmag'                                    | Variable is normalized and bounded within [-1,1] |
+| tbodyaccmag.std..           | Mean of the standard deviations of the variable 'tbodyaccmag'                      | Variable is normalized and bounded within [-1,1] |
+| tgravityaccmag.mean..       | Mean of the means of the variable 'tgravityaccmag'                                 | Variable is normalized and bounded within [-1,1] |
+| tgravityaccmag.std..        | Mean of the standard deviations of the variable 'tgravityaccmag'                   | Variable is normalized and bounded within [-1,1] |
+| tbodyaccjerkmag.mean..      | Mean of the means of the variable 'tbodyaccjerkmag'                                | Variable is normalized and bounded within [-1,1] |
+| tbodyaccjerkmag.std..       | Mean of the standard deviations of the variable 'tbodyaccjerkmag'                  | Variable is normalized and bounded within [-1,1] |
+| tbodygyromag.mean..         | Mean of the means of the variable 'tbodygyromag'                                   | Variable is normalized and bounded within [-1,1] |
+| tbodygyromag.std..          | Mean of the standard deviations of the variable 'tbodygyromag'                     | Variable is normalized and bounded within [-1,1] |
+| tbodygyrojerkmag.mean..     | Mean of the means of the variable 'tbodygyrojerkmag'                               | Variable is normalized and bounded within [-1,1] |
+| tbodygyrojerkmag.std..      | Mean of the standard deviations of the variable 'tbodygyrojerkmag'                 | Variable is normalized and bounded within [-1,1] |
+| fbodyacc.mean...xyz         | Mean of the means of the variable 'fbodyacc'                                       | Variable is normalized and bounded within [-1,1] |
+| fbodyacc.std...xyz          | Mean of the standard deviations of the variable 'fbodyacc'                         | Variable is normalized and bounded within [-1,1] |
+| fbodyaccjerk.mean...xyz     | Mean of the means of the variable 'fbodyaccjerk'                                   | Variable is normalized and bounded within [-1,1] |
+| fbodyaccjerk.std...xyz      | Mean of the standard deviations of the variable 'fbodyaccjerk'                     | Variable is normalized and bounded within [-1,1] |
+| fbodygyro.mean...xyz        | Mean of the means of the variable 'fbodygyro'                                      | Variable is normalized and bounded within [-1,1] |
+| fbodygyro.std...xyz         | Mean of the standard deviations of the variable 'fbodygyro'                        | Variable is normalized and bounded within [-1,1] |
+| fbodyaccmag.mean..          | Mean of the means of the variable 'fbodyaccmag'                                    | Variable is normalized and bounded within [-1,1] |
+| fbodyaccmag.std..           | Mean of the standard deviations of the variable 'fbodyaccmag'                      | Variable is normalized and bounded within [-1,1] |
+| fbodybodyaccjerkmag.mean..  | Mean of the means of the variable 'fbodybodyaccjerkmag'                            | Variable is normalized and bounded within [-1,1] |
+| fbodybodyaccjerkmag.std..   | Mean of the standard deviations of the variable 'fbodybodyaccjerkmag'              | Variable is normalized and bounded within [-1,1] |
+| fbodybodygyromag.mean..     | Mean of the means of the variable 'fbodybodygyromag'                               | Variable is normalized and bounded within [-1,1] |
+| fbodybodygyromag.std..      | Mean of the standard deviations of the variable 'fbodybodygyromag'                 | Variable is normalized and bounded within [-1,1] |
+| fbodybodygyrojerkmag.mean.. | Mean of the means of the variable 'fbodybodygyrojerkmag'                           | Variable is normalized and bounded within [-1,1] |
+| fbodybodygyrojerkmag.std..  | Mean of the standard deviations of the variable 'fbodybodygyrojerkmag'             | Variable is normalized and bounded within [-1,1] |
