@@ -10,10 +10,11 @@ Summary: The purpose of this data collection is to provide the means of the mean
 The variables are listed below. For more detail on the collection and manipulation process see the readme file.
 
 
+
+
 | Variable Name               | Variable                                                                           | Explanation                                      |
 |-----------------------------|------------------------------------------------------------------------------------|--------------------------------------------------|
-| activity                    | Activity performed by the subjects and measured by the gyroscope and accelerometer | walking, walking.upstairs,                       |
-|                             |                                                                                    |   walking.downstairs, sitting, standing, laying  |
+| activity                    | Activity performed by the subjects and measured by the gyroscope and accelerometer | walking, walking.upstairs,  walking.downstairs, sitting, standing, laying                     |
 | subject                     | A group of 30 volunteers within an age bracket of 19-48 years                      | 1-30                                             |
 | tbodyacc.mean...xyz         | Mean of the means of the variable 'tbodyacc'                                       | Variable is normalized and bounded within [-1,1] |
 | tbodyacc.std...xyz          | Mean of the standard deviations of the variable 'tbodyacc'                         | Variable is normalized and bounded within [-1,1] |
