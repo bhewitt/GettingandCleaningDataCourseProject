@@ -55,5 +55,5 @@ levels(data1$activity) <- activityNames
 dataMelt <- melt(data1,id = c("activity", "subject"), measure.vars = names(data1)[3:68])
 dataCast <- dcast(dataMelt, activity + subject ~ variable, mean)
 
-# Print the data
-write.csv(dataCast, "Getting and Cleaning Data Course Project\\tidy_data.csv")
+# Write the tidy data to a file
+write.table(dataCast, "Getting and Cleaning Data Course Project\\tidy_data.txt", sep = "\t", row.names = FALSE, quote = FALSE)
