@@ -13,7 +13,6 @@ This dataset includes the following files:
 * README.md
 * CODEBOOK.md: Shows information about the variables in the data
 * run_analysis.R: The R script that produces the tidy data from the source files
-* tidy_data.csv: Tidy data output in .csv format
 * tidy_data.txt: Tidy data output in .txt tab-delimited format
 
 
