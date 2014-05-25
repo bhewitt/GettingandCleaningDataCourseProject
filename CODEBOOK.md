@@ -13,12 +13,9 @@ The variables are listed below. For more detail on the collection and manipulati
 
 | Variable Name               | Variable                                                                  | Explanation                                      |
 |-----------------------------|---------------------------------------------------------------------------|--------------------------------------------------|
-| activity                    | Activity performed by the subjects and measured by the gyroscope and      | walking                                          |
-|                             |   accelerometer                                                           |     walking.upstairs                             |
-|                             |                                                                           |     walking.downstairs                           |
-|                             |                                                                           |     sitting                                      |
-|                             |                                                                           |     standing                                     |
-|                             |                                                                           |     laying                                       |
+| activity                    | Activity performed by the subjects and measured by the gyroscope and accelerometer     |                                         |
+|                             |                                                             |    walking, walking.upstairs,, walking.downstairs, sitting, standing, laying                            |
+
 | subject                     | Subjects that performed activites pulled from a group of 30 volunteers    | 1-30                                             |
 |                             |   within an age bracket of 19-48 years                                    |                                                  |
 | tbodyacc.mean...xyz         | Mean of the means of the variable 'tbodyacc' from all subjects and        | Variable is normalized and bounded within [-1,1] |
